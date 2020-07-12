@@ -139,13 +139,13 @@ started!
   There are 2 main approaches to generalization :
     * Instance-based learning --> {"Learn the examples by heart" , Generalize New cases by using a similarity , KNN for example}
     * Model-based learning --> {"Build model to make Prediction" , Generalize NEw Cases by using model , {SVM,LinReg,LogReg,MLP,...}}
-  Jargon --> {Utility Function --> How Good your model is ,
+  * Jargon --> {Utility Function --> How Good your model is ,
               Cost Function --> How Bad your model is,
              Model Selection --> Choosing the type of model and fully specified its Hyperparameter / architecture
              Training Model -->  Try To find Best Fit to data }
-    **Code Section**
+  *  **Code Section**
     [x]["Running and training a Linear Model"](https://github.com/Xwyzworms/Hands-on-MachineLearningWithScikit/blob/master/The%20Fundamentals%20of%20Machine%20Learning/The%20Machine%20Learning%20Landscape/Code/RunningandtrainingaLinearModel.ipynb)        
-  In Summary :
+* In Summary :
     * We Studied the DATA
     * Selected Model
     * Trained The Model (using parameter values that minimize cost func)
