@@ -120,4 +120,42 @@ started!
       * Reinforcement learning
         * Using an agent to observe the environments , select action and get reward , mostly used in game , such AI DOTA
         * Agent Learn by it self,tried to find the best strategy using "POLICY" .
+## Batch and Online Learning
+  Sometime we need to determine whether the system can learn incrementally from a stream of incoming data or not
+  * Batch learning --> System **can't** learn incrementally in other words your machine learning model can't learn from a stream of incoming data
+    * Why ? Because Batch Learning means you trained your Observation All at once ,this will take a lot bigger computation and resources , often people say it *Offline Learning* ,so in case you want to use this on production and need to learn from incoming data, you need to train ALL data {OLD And New}and replace the old machine learning model, Kinda Bad right ?
+  * Online Learning {Incremental Learning}--> System **can** learn incrementally , Yep your model can learn from a stream of incoming data ?
+    * You will train your machine learning model incrementally by feeding it with new data within a groups ,called *Mini Batches* , Cheap and Fast make it more reliable
+    * Once you've updated your machine learning model then you can't discard the data,saves more Storage
+    * Also this often used when you feeding Neural Network with A big data set,you should know "Batch Size" :D
+    * *Remember*  Learning Rate is one of the important Hyperparameter of learning system "How fast They should adapt to changing data"
+      * Big ? Rapidly adapt to new data , tend quickly forget the old DATA
+      * Small ? Slowly learning but less sensitive to noise / outliers
+    A Big Challenge with Online Learning is that if "BAD DATA" Fed into the system,well slowly its perfomance will gradually decline
+    Sometime you need to use Anomaly detection Algorithm before fed upcoming data into the system
+
+## Instances Based Versus Model-Based learning
+  Machine learning Models Purpose is able to GENERAlize on unseen data.
+  There are 2 main approaches to generalization :
+    * Instance-based learning --> {"Learn the examples by heart" , Generalize New cases by using a similarity , KNN for example}
+    * Model-based learning --> {"Build model to make Prediction" , Generalize NEw Cases by using model , {SVM,LinReg,LogReg,MLP,...}}
+  Jargon --> {Utility Function --> How Good your model is ,
+              Cost Function --> How Bad your model is,
+             Model Selection --> Choosing the type of model and fully specified its Hyperparameter / architecture
+             Training Model -->  Try To find Best Fit to data }
+    **Code Section**
+    [x]["Running and training a Linear Model"]()        
+  In Summary :
+    * We Studied the DATA
+    * Selected Model
+    * Trained The Model (using parameter values that minimize cost func)
+    * Applied Model to make Prediction (Hope Generalize Well on unseen data)
+## Main Challenges of machine learning
+  * Bad Algorithm
+  * Bad Data
+### insufficient Quantity of Training Data
+# Continue later On ,Page 23 :D. 
+
+
+
 # CONTINUE READING THE BOOK LATER ON , PAGE 14  
