@@ -144,7 +144,7 @@ started!
              Model Selection --> Choosing the type of model and fully specified its Hyperparameter / architecture
              Training Model -->  Try To find Best Fit to data }
     **Code Section**
-    [x]["Running and training a Linear Model"]()        
+    [x]["Running and training a Linear Model"](https://github.com/Xwyzworms/Hands-on-MachineLearningWithScikit/blob/master/The%20Fundamentals%20of%20Machine%20Learning/The%20Machine%20Learning%20Landscape/Code/RunningandtrainingaLinearModel.ipynb)        
   In Summary :
     * We Studied the DATA
     * Selected Model
@@ -154,7 +154,7 @@ started!
   * Bad Algorithm
   * Bad Data
 ### insufficient Quantity of Training Data
-# Continue later On ,Page 23 :D. 
+# Continue later On ,Page 23 :D.
 
 
 
